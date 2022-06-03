@@ -1,0 +1,373 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-02T20:11:11.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2895257300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.n11.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Adding/deleting favourite product",
+        "description": "",
+        "id": "n11-automation-case;adding/deleting-favourite-product",
+        "after": [
+          {
+            "result": {
+              "duration": 808806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.n11.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4090447100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \"https://www.n11.com/\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.n11.com/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.theUserGoesToPagee(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46876600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify that the page title is \"n11.com - Hayat Sana Gelir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"n11.com - Hayat Sana Gelir\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verify_that_the_page_title_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4989593700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks \"Giriş Yap\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Giriş Yap\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.userClicksButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5250308700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logs in with Facebook",
+            "match": {
+              "location": "com.n11.step_definitions.MikroStepDefs.clickFacebookIleGirişYapButtonForLoginWithFacebookAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6359065100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that username \"Erva Ulker\" is visible under My Account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Erva Ulker\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verify_that_is_visible_under_My_Account(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10809039000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.userWriteInSearchBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13961900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that user sees the results for \"Iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.userShouldSeeTheResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3667718400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the page \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.clickThePage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5983800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify for \"ıphone\" results are opened in page \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ıphone\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verifyForResultsAreOpenedInPage(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 443813700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user adds the product number \"3\" on the page to Favourites",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.userAddThProductInFavorite(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4013963000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks to \"Favorilerim / Listelerim\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Favorilerim / Listelerim\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.userClicksToButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6979300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify open the \"istek-listelerim\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"istek-listelerim\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verifyOpenThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33911400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify displayed the \"Favorilerim / Listelerim\" title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Favorilerim / Listelerim\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verifyDisplayedTheTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2039804400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click the favorilerim button",
+            "match": {
+              "location": "com.n11.step_definitions.MikroStepDefs.clickTheFavorilerimButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6975000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify that page title starts with \"Favorilerim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Favorilerim\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verify_that_user_is_on_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 270278100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user deletes the product from the favorites",
+            "match": {
+              "location": "com.n11.step_definitions.MikroStepDefs.userDeleteTheProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260302900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify that \"Ürününüz listeden silindi.\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ürününüz listeden silindi.\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.verify_that_the_image_which_shows_the_list_empty_is_visible(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5406347700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks to \"Çıkış Yap\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Çıkış Yap\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.n11.step_definitions.MikroStepDefs.userClicksToButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5985500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify user log out",
+            "match": {
+              "location": "com.n11.step_definitions.MikroStepDefs.verifyUserLogOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mikro"
+          }
+        ]
+      }
+    ],
+    "name": "n11 automation case",
+    "description": "",
+    "id": "n11-automation-case",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Mikro.feature",
+    "tags": []
+  }
+]
